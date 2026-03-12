@@ -16,17 +16,15 @@ export default function Assetmodal({ isOpen, onClose }){
             <div className="modal-grid">
               <div className="left-col">
                 <div className="left-upper">
-                  <div className="section">
-                    <label className="section-title" id="label-category">SELECT CATEGORY</label>
-                    <select className="input" id="category">
+                  <label className="section-title" id="label-category">SELECT CATEGORY</label>
+                  <select className="input" id="category">
                       <option value="">Select...</option>
                       <option>IT Asset</option>
                       <option>Non IT Asset</option>
                       <option>Accesories</option>
                     </select>
-                    <div className="sub-label">Quick Select</div>
+                  <div className="sub-label">Quick Select</div>
                     <QuickSelect />
-                  </div>
                 </div>
 
                 <div className="left-lower">
