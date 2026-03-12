@@ -4,6 +4,8 @@
   # serverless function generation and routing from the .next output.
   command = "npm run build"
   publish = ".next"
+  # Build base directory for the site. Set to "." when the project is at repo root.
+  base = "."
 
 [build.environment]
   # Ensure a compatible Node version and disable Next telemetry during CI
