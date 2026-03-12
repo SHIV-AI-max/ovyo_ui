@@ -1,16 +1,9 @@
-
 [build]
-  # Build command for Next.js. The Netlify Next.js plugin will handle
-  # serverless function generation and routing from the .next output.
   command = "npm run build"
   publish = ".next"
-  # Build base directory for the site. Set to "." when the project is at repo root.
-  base = "."
 
 [build.environment]
-  # Ensure a compatible Node version and disable Next telemetry during CI
-  NODE_VERSION = "18"
-  NEXT_TELEMETRY_DISABLED = "1"
+  NODE_VERSION = "20"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
