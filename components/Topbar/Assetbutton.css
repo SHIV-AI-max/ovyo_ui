@@ -1,0 +1,10 @@
+.assetBtn{
+  padding:8px 15px;
+  background:#4a6cf7;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.assetBtn:active{ transform:translateY(1px) }

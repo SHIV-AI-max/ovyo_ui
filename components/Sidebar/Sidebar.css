@@ -1,0 +1,40 @@
+.sidebar{
+  width:240px;
+  background:white;
+  border-right:1px solid #ddd;
+  padding:20px;
+}
+
+.logo{
+  margin-bottom:20px;
+}
+
+.section{
+  font-size:12px;
+  color:#888;
+  margin-top:20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  user-select:none;
+}
+
+.item{
+  padding:8px;
+  margin-top:5px;
+  cursor:pointer;
+}
+
+.item:hover{
+  background:#f0f0f0;
+  border-radius:5px;
+}
+
+.section.clickable{ cursor:pointer }
+
+
+.item.active{
+  background:#eef2ff;
+  border-radius:6px;
+  font-weight:600;
+}

@@ -1,0 +1,8 @@
+.assets-panel{ display:flex; flex-direction:column; gap:16px }
+.section-box{ background:#fff; padding:14px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.04) }
+.section-box h3{ margin:0 0 10px 0 }
+.btn-row{ display:flex; gap:10px; flex-wrap:wrap }
+.btn-row button{ padding:8px 12px; border-radius:8px; border:1px solid #ddd; background:#fff; cursor:pointer }
+.btn-row button:hover{ background:#f3f4f6 }
+
+/* reuse modal classes from Assetmodal.css for styling */
