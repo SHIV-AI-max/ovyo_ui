@@ -1,0 +1,33 @@
+.issues-page{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  min-height: 0px;
+  box-sizing:border-box;
+  gap:24px;
+  padding:40px;
+
+  background:#0635f2;
+}
+
+.issue-modal{
+  background:white;
+  border-radius:16px;
+  padding:24px;
+box-sizing:border-box;
+  box-shadow:0 10px 25px rgba(0,0,0,0.12);
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+
+}
+
+/* mobile */
+
+@media (max-width:900px){
+  .issues-page{
+    grid-template-columns:1fr;
+  }
+}

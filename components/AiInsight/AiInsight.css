@@ -1,0 +1,83 @@
+.aiinsight-root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 960px;
+    margin: 24px auto;
+    background: var(--card-bg, #fff);
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+}
+
+.aiinsight-header {
+    padding: 14px 18px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    background: var(--panel-header, #fafafa);
+}
+
+.aiinsight-chat {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto;
+    min-height: 320px;
+    background: var(--panel-bg, #fff);
+}
+
+.aiinsight-message {
+    max-width: 75%;
+    padding: 10px 12px;
+    border-radius: 12px;
+}
+
+.aiinsight-message.user {
+    align-self: flex-end;
+    background: var(--accent, #0ea5a4);
+    color: white;
+}
+
+.aiinsight-message.bot {
+    align-self: flex-start;
+    background: var(--muted, #f1f5f9);
+    color: #0b1220
+}
+
+.aiinsight-text {
+    white-space: pre-wrap;
+}
+
+.aiinsight-inputBar {
+    display: flex;
+    gap: 8px;
+    padding: 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.04);
+    background: var(--panel-footer, #fff)
+}
+
+.aiinsight-input {
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    outline: none
+}
+
+.aiinsight-input:focus {
+    box-shadow: 0 0 0 3px rgba(14, 165, 164, 0.08);
+}
+
+.aiinsight-send {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background: var(--accent, #0ea5a4);
+    color: white;
+    cursor: pointer
+}
+
+.aiinsight-send:hover {
+    opacity: 0.95
+}

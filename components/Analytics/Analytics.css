@@ -1,0 +1,120 @@
+.analytics-page{
+  padding:30px;
+  background:#f5f6fa;
+  min-height:100vh;
+
+
+}
+
+/* HEADER */
+
+.analytics-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:30px;
+}
+
+/* RADIO SELECTOR */
+
+.range-selector{
+  display:flex;
+  gap:10px;
+}
+
+.radio-card{
+  position:relative;
+}
+
+.radio-card input{
+  display:none;
+}
+
+.radio-card span{
+  padding:8px 14px;
+  border-radius:6px;
+  background:#fff;
+  border:1px solid #ddd;
+  cursor:pointer;
+  font-size:14px;
+}
+
+/* selected */
+
+.radio-card input:checked + span{
+  background:#000;
+  color:#fff;
+  border-color:#000;
+}
+
+/* METRIC GRID */
+
+.metrics-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+  margin-bottom:25px;
+}
+
+.metric-box{
+  background:#fff;
+  padding:22px;
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* CHART GRID */
+
+.chart-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+  margin-bottom:25px;
+}
+
+.chart-box{
+  background:#fff;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.05);
+  min-height:180px;
+}
+
+/* TABLE */
+
+.table-section{
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.05);
+}
+
+.table-section table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:10px;
+}
+
+.table-section th,
+.table-section td{
+  padding:10px;
+  border-bottom:1px solid #eee;
+  text-align:left;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+  .analytics-header{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:15px;
+  }
+
+  .metrics-grid,
+  .chart-grid{
+    grid-template-columns:1fr;
+  }
+
+}

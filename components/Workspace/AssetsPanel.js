@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import "./AssetsPanel.css"
-import "../Topbar/Assetmodal.css" // reuse modal styles
+//import "../Topbar/Assetmodal.css" // reuse modal styles
 
 export default function AssetsPanel(){
   const [open, setOpen] = useState(false)
