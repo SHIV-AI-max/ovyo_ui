@@ -1,8 +1,8 @@
 .analytics-page{
   padding:30px;
-  background:#f5f6fa;
+  background:#ffffff;
   min-height:100vh;
-
+  overflow: hidden;
 
 }
 
@@ -24,10 +24,12 @@
 
 .radio-card{
   position:relative;
+  overflow: hidden;
 }
 
 .radio-card input{
   display:none;
+  overflow: hidden;
 }
 
 .radio-card span{
@@ -45,6 +47,7 @@
   background:#000;
   color:#fff;
   border-color:#000;
+  
 }
 
 /* METRIC GRID */

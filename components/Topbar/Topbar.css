@@ -4,10 +4,9 @@
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:15px 20px;
-  background:#ffffff;
+  padding: 15px 13px;
+  background:#000000f3;
   flex-wrap:wrap;
-  gap:10px;
   
 }
 
@@ -30,4 +29,21 @@
   border:none;
   border-radius:6px;
   cursor:pointer;
+}
+
+/* .image{
+  display:flex;
+  margin-top: 10px;
+  background:transparent;
+  border-radius: 100%;
+  box-shadow: 0px 0px 30px rgb(13, 255, 0) , inset 0px 0px 20px rgb(13, 255, 0) ;
+} */
+
+.ovyo{
+  display:flex;
+  
+  background:transparent;
+  border-radius: 100%;
+  box-shadow: 0px 0px 30px rgb(13, 255, 0) , inset 0px 0px 20px rgb(13, 255, 0) ;
+
 }

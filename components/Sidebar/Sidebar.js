@@ -3,6 +3,7 @@
 import { useState } from "react"
 import "./Sidebar.css"
 
+
 export default function Sidebar({ active, onSelect }){
   const items = [
     { section: 'Overview', label: 'Dashboard' },
@@ -16,6 +17,8 @@ export default function Sidebar({ active, onSelect }){
     { section: 'ADMIN', label: 'Users & Roles' },
     { section: 'ADMIN', label: 'Audit logs' }
   ]
+
+
 
   // group items by section
   const grouped = items.reduce((acc, it) => {
@@ -32,9 +35,7 @@ export default function Sidebar({ active, onSelect }){
 
   return(
     <div className="sidebar">
-      <h2 className="logo">Ovyo</h2>
-
-      <div className="menu">
+        <div className="menu">    
         {Object.keys(grouped).map(section => (
           <div key={section}>
             <p className={"section clickable"} onClick={() => toggleSection(section)}>{section}</p>
@@ -49,7 +50,17 @@ export default function Sidebar({ active, onSelect }){
             ))}
           </div>
         ))}
+
+
+
+
+
+
+        
       </div>
+
+
+
     </div>
   )
 }
